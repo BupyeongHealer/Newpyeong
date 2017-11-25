@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF14AAE3"
+                android:fontFamily="sans-serif"
+                android:text="종목 선택"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_nordic"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/nordic"
+                android:layout_marginRight="3dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/btn_luge"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/luge"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_biathlon"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/biathlon"
+                android:layout_marginLeft="3dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_bobsleigh"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/bobsleigh"
+                android:layout_marginRight="3dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/btn_shorttrack"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/shorttrack"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_snowboard"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/snowboard"
+                android:layout_marginLeft="3dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_skeleton"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/skeleton"
+                android:layout_marginRight="3dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/btn_ski_jump"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/ski_jump"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_speed_skating"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/speed_skating"
+                android:layout_marginLeft="3dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_ice_hockey"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/ice_hockey"
+                android:layout_marginRight="3dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/btn_alpine"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/alpine_ski"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_curling"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/curling"
+                android:layout_marginLeft="3dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_cross"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/crosscountry"
+                android:layout_marginRight="3dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/btn_freestyle"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/freestyle"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_figure"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/figure"
+                android:layout_marginLeft="3dp"
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_webview"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="평창동계올림픽 홈페이지\nCLICK!"
+            android:textColor="#FFFFFF"
+            android:background="#5D5D5D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+

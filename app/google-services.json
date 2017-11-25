@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "288018872788",
+    "firebase_url": "https://pyeongchang-f5d31.firebaseio.com",
+    "project_id": "pyeongchang-f5d31",
+    "storage_bucket": "pyeongchang-f5d31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288018872788:android:f78cab8d066610e3",
+        "android_client_info": {
+          "package_name": "com.example.healer.pyeonchang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288018872788-47cr53mv8sc7nngv9b6ruks9j5lju199.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2jm0qcOVWnrO7DruuvgasIhwZYM15cKA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

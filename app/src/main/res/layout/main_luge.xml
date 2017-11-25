@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="루지"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="#ff14aae3"
+        />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_luge"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:text="루지는 발을 전방으로 향하고\n얼굴을 하늘로 향한 자세로 소형 썰매를 타고\n1,000m-1,500m를 활주하는 스포츠입니다."
+            />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="대표팀 명단"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:background="#ff14aae3"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/luge_man_a"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/luge_man_b"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/luge_woman_a"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/luge_woman_b"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        />
+
+
+
+</LinearLayout>
+
+</ScrollView>

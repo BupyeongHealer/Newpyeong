@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="바이애슬론"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="#ff14aae3"
+        />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_biathlon"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:text="바이애슬론은 서로 다른 종목인\n크로스컨트리 스키와 사격이 결합된 경기입니다.\n선수들은 총을 등에 맨 채로 스키를 타고\n일정 거리를 주행하며, 정해진\n사격장에서 사격을 합니다.\n사격은 엎드려쏴와 서서쏴입니다.\n스키 거리의 주행시간과 사격의\n정확성에 의해 최종 순위가 가려지게 됩니다."
+            />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="대표팀 명단"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:background="#ff14aae3"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/biathlon_man_a"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/biathlon_man_b"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/biathlon_woman_a"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/biathlon_woman_b"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/biathlon_woman_c"
+        android:adjustViewBounds="true"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        />
+
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스켈레톤"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="#ff14aae3"
+        />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_skeleton"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:text="썰매형 속도 경기 종목의 하나입니다.\n머리를 앞에 두고 엎드린 자세로\n어깨, 무릎을 이용하여 조종을 합니다."
+            />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="대표팀 명단"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:background="#ff14aae3"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/skeleton_man_a"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/skeleton_man_b"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/skeleton_woman_a"
+        android:adjustViewBounds="true"
+        />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        />
+
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healer.pyeonchang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoadingActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Main" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".SelectActivity"/>
+        <activity android:name=".NordicMain"/>
+        <activity android:name=".LugeMain"/>
+        <activity android:name=".BiathlonMain"/>
+        <activity android:name=".BobsleighMain"/>
+        <activity android:name=".ShorttrackMain"/>
+        <activity android:name=".SnowboardMain"/>
+        <activity android:name=".SkeletonMain"/>
+        <activity android:name=".SkijumpingMain"/>
+        <activity android:name=".SpeedskatingMain"/>
+        <activity android:name=".IcehockeyMain"/>
+        <activity android:name=".AlpineskiingMain"/>
+        <activity android:name=".CurlingMain"/>
+        <activity android:name=".CrosscountryMain"/>
+        <activity android:name=".FreestyleMain"/>
+        <activity android:name=".FigureskatingMain"/>
+        <activity android:name=".WebviewActivity"/>
+        <activity android:name=".SelectMainActivity"/>
+        <activity android:name=".BoardActivity"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="봅슬레이"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="#ff14aae3"
+        />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_bobsleigh"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:text="봅슬레이는 방향을 조종할 수 있는\n썰매를 타고 얼음으로 만든 트랙을 활주하는 경기입니다.\n파일럿과 브레이크맨 푸쉬맨으로 이루어집니다.\n파일럿은 조종을 합니다.\n브레이크맨은 제동을 걸어주는 역할을 합니다.\n푸쉬맨은 출발할 때 밀고 나가는 역할을 합니다."
+           />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="대표팀 명단"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:background="#ff14aae3"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bobsleigh_man_a"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bobsleigh_man_b"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bobsleigh_man_c"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bobsleigh_man_d"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/bobsleigh_man_e"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bobsleigh_woman_a"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/bobsleigh_woman_b"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        />
+
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Passion. Connected."
+        android:textSize="35sp"
+        android:textColor="#FF14AAE3"
+        android:textStyle="bold"
+        android:layout_marginBottom="100dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="2018.02.09 ~ 25"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#5D5D5D"
+        android:layout_marginTop="100dp"/>
+
+
+
+</LinearLayout>
