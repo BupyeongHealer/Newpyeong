@@ -1,10 +1,8 @@
-# Newpyeong
+# PyeongChang Olympics Android Application
 
-2018 평창올림픽기념 프로젝트
-
-올림픽 종목소개와 대한민국 국가대표팀 소개를 위한 안드로이드 어플리케이션이다
+This is Android Application for introduction about each Olympic Games and Korean players for celebrating 2018 PyeongChangOlympics.
 
 
-2018 PyeongChangOlympic Project
-
-This is Android Application for introduction about each Olympic Games and Korean players.
+![alt 1번이미지](/image/img1.png)
+![alt 2번이미지](/image/img2.png)
+![alt 3번이미지](/image/img3.png)
